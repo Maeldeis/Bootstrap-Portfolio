@@ -1,68 +1,50 @@
 body {
-    font-family: 'Arial', sans-serif;
-    margin: 0;
-    padding: 0;
-    background-color: #efbcbc;
-    color: #333;
-    display: flex;
-    flex-direction: column;
-    min-height: 100vh;
-  }
-  
-  .flex_item {
-    padding:10px;
-    margin: 10px;
-    background-color: rgb(227, 166, 166);
-    color: rgb(0, 0, 0);
-  }
-  .flex {
-    display: flex;
-    padding: 10px;
-    margin: 10px;
-  }
-  #column {
-    background-color: #e9b1b1;
-    flex-direction: column;
-  }
-  #row {
-    background-color: #f6b9b9;
-    flex-direction: row;
-  }
+  font-family: 'Arial', sans-serif;
+  margin: 0;
+  padding: 0;
+  background-color: #efbcbc;
+  color: #333;
+  display: flex;
+  flex-direction: column;
+  align-items: center; 
+  justify-content: center; 
+  min-height: 100vh;
+}
 
-  html {
-    font-size: 18px;
-  }
+.flex_item {
+  padding: 10px;
+  margin: 10px;
+  background-color: rgb(227, 166, 166);
+  color: rgb(0, 0, 0);
+}
+
+.flex {
+  display: flex;
+  padding: 10px;
+  margin: 10px;
+}
+
+#column {
+  background-color: #e9b1b1;
+  flex-direction: column;
+}
+
+#row {
+  background-color: #f6b9b9;
+  flex-direction: row;
+}
+
+html {
+  font-size: 18px;
   
-  h1 {
-    color: rgb(64, 64, 141); 
-    text-align: center;
-    margin-bottom: 1em; 
-  }
-  
-  p {
-    font-family: 'Verdana', sans-serif; /* Updated font stack for consistency */
-    font-size: 16px; 
-    line-height: 1.6; /* Improved line height for better spacing */
-    margin-bottom: 1.5em; 
-  }
-  
-  a:visited {
-    color: rgb(159, 77, 77);
-  }
-  
-  a:hover,
-  a:active {
-    color: rgb(56, 56, 171);
-  }
-  
- 
-  @media (max-width: 768px) {
-    h1 {
-      font-size: 1.8em; /* Adjusted heading font size for smaller screens */
-    }
-  
-    p {
-      font-size: 14px; /* Adjusted font size for paragraphs on smaller screens */
-    }
-  }
-  
+}
+
+h1 {
+  color: rgb(64, 64, 141);
+  text-align: center;
+  margin-bottom: 1em;
+}
+
+p {
+  font-family: 'Verdana', sans-serif;
+}
