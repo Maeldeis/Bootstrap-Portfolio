@@ -14,12 +14,16 @@ body {
   background-repeat: no-repeat;
   opacity: 1;
 }
+.container1 {
+  margin:auto;
+  width: 900px;
+  height:800px;
+}
 
 .container {
   margin: 5px;
   width: 500px;
 }
-
 .image-container {
   position: relative;
   overflow: hidden;
