@@ -9,21 +9,21 @@ body {
   justify-content: center;
   min-height: 100vh;
   background-image: url('image/icon.png');
-  background-size: cover;
+  background-size: contain;
   background-position: center;
   background-repeat: no-repeat;
   opacity: 1;
 }
 
 .container {
-  margin: 50px;
-  width: 250px;
+  margin: 5px;
+  width: 500px;
 }
 
 .image-container {
   position: relative;
   overflow: hidden;
-  border-radius: 8px;
+  border-radius: 20px;
 }
 
 .image-container img {
