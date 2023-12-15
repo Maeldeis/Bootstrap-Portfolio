@@ -8,3 +8,7 @@ Changing the project images
 Closing shadows on text for readability, adjusting padding
 ![Alt text](image.png)
 I've made some improvements for better organization, added accessibility attributes, and enhanced the styling. 
+
+# Week 3 additions with bootstrap
+This revised code incorporates the suggested improvements for color variables, font stacks, and consolidated container styles.
+![Alt text](image/S1.png)
