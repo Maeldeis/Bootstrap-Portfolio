@@ -7,3 +7,4 @@ Creating a user responsive portfolio of current and future work for potential cl
 Changing the project images
 Closing shadows on text for readability, adjusting padding
 ![Alt text](image.png)
+I've made some improvements for better organization, added accessibility attributes, and enhanced the styling. 
