@@ -2,10 +2,10 @@ body {
   font-family: 'Arial', sans-serif;
   background-color: #efbcbc;
   color: #ffc1c1;
+  text-shadow: 2px 2px 2px rgba(0, 0, 0, 0.5);
   display: flex;
   flex-direction: column;
   align-items: center;
-  text-shadow: 1px 1px 1px #000;
   text-align: center;
   justify-content: center;
   min-height: 100vh;
@@ -49,7 +49,7 @@ img {
   top: 50%;
   left: 50%;
   transform: translate(-50%, -50%);
-  color: #fff;
+  color: #ffd2d2;
   font-size: 18px;
   font-weight: bold;
   text-shadow: 2px 2px 2px rgba(0, 0, 0, 0.5);
@@ -66,7 +66,7 @@ header {
   background-color: #333;
   color: rgb(255, 228, 228);
   text-align: center;
-  text-shadow: 1px 1px 1px #000;
+  text-shadow: 2px 2px 2px rgba(0, 0, 0, 0.5);
   padding: 0;
   display: flex;
   align-items: center;
@@ -76,7 +76,7 @@ header {
 nav {
   background-color: #333;
   color: rgb(255, 221, 221);
-  text-shadow: 1px 1px 1px #000;
+  text-shadow: 2px 2px 2px rgba(0, 0, 0, 0.5);
   text-align: center;
   padding: 20px;
   display: flex;
@@ -98,15 +98,16 @@ nav li {
 nav a {
   text-decoration: none;
   color: rgb(255, 223, 223);
-  text-shadow: 1px 1px 1px #000;
+  text-shadow: 2px 2px 2px rgba(0, 0, 0, 0.5);
   font-weight: bold;
   align-items: center;
 }
 
 main, section {
   margin-bottom: 20px;
-  color: #fff8f8;
+  color: #f8bcbc;
   display: flex;
+  text-shadow: 2px 2px 2px  #000;
   flex-direction: column;
   align-items: center;
 }
@@ -116,6 +117,7 @@ main, section {
   margin: 10px;
   background-color: rgb(227, 166, 166);
   color: #f5b4b4;
+  text-shadow: 2px 2px 2px rgba(0, 0, 0, 0.5);
 }
 
 .flex {
@@ -126,27 +128,25 @@ main, section {
 
 #column {
   background-color: #000;
+  text-shadow: 2px 2px 2px rgba(0, 0, 0, 0.5);
   flex-direction: column;
 }
 
 #row {
   background-color: #fccfcf;
   flex-direction: row;
+  text-shadow: 2px 2px 2px rgba(0, 0, 0, 0.5);
 }
 
-.footer {
+footer {
+  color: rgb(254, 214, 214);
+  text-shadow: 2px 2px 2px rgba(0, 0, 0, 0.5);
+  text-align: center;
+  padding: 20px;
   display: flex;
   justify-content: center;
-  align-items: center;
-  background: black;
-  height: 100px;
 }
 
-.footer a {
-  padding: 20px 40px;
-  font-family: 'Arial', sans-serif;
-  text-decoration: none;
-}
 
 @media only screen and (max-width: 768px) {
   h1, p {
