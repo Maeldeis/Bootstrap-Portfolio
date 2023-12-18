@@ -32,14 +32,14 @@ img {
   max-width: 100%;
   height: auto;
   display: block;
-  margin: 0 auto 10px; /* Reduced margin */
+  margin: 0 auto 10px; 
 }
 
 /* Container styling */
 .container1,
 .container {
-  width: 80%; /* Uniform width */
-  margin: 0 auto; /* Centered */
+  width: 80%; 
+  margin: 0 auto; 
 }
 
 /* Image container styling */
@@ -170,7 +170,6 @@ footer {
 
 /* Media queries for responsive design */
 @media only screen and (max-width: 768px) {
-  /* Adjusted padding for smaller screens */
   main h1,
   main p,
   section h1,
@@ -180,7 +179,6 @@ footer {
 }
 
 @media only screen and (max-width: 480px) {
-  /* Further adjusted padding for smaller screens */
   main h1,
   main p,
   section h1,
