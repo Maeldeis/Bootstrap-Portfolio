@@ -13,6 +13,7 @@ I've made some improvements for better organization, added accessibility attribu
 
 # Week 3 additions with bootstrap
 This revised code incorporates the suggested improvements for color variables, font stacks, and consolidated container styles.
-![Alt text](image/S1.png)
+![Base](image/S1.png)
 This is the new base I am starting from - added my first project with images for all future ones.
-![Alt text](image/newhome.png)
+![New homepage](image/newhome.png)
+![Alt text](image/comments.png)
