@@ -157,15 +157,23 @@ footer {
   justify-content: center;
 }
 
-
+/* Media queries for responsive design */
 @media only screen and (max-width: 768px) {
-  h1, p {
-    padding: 30px; /* Adjusted padding for smaller screens */
+  /* Adjusted padding for smaller screens */
+  main h1,
+  main p,
+  section h1,
+  section p {
+    padding: 30px;
   }
 }
 
 @media only screen and (max-width: 480px) {
-  h1, p {
-    padding: 20px; /* Adjusted padding for smaller screens */
+  /* Further adjusted padding for smaller screens */
+  main h1,
+  main p,
+  section h1,
+  section p {
+    padding: 20px;
   }
 }
