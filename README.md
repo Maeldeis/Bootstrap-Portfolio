@@ -17,3 +17,5 @@ This revised code incorporates the suggested improvements for color variables, f
 This is the new base I am starting from - added my first project with images for all future ones.
 ![New homepage](image/newhome.png)
 ![Alt text](image/comments.png)
+Adding cards with personalised images and links
+![Alt text](<image/Screenshot 2023-12-19 210905.png>)
