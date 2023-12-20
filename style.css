@@ -1,31 +1,23 @@
-/* General styling */
+
 body {
   font-family: 'Arial', sans-serif;
-  background-color: #8e8e8e;
+  background: #8e8e8e url('image/icon.png') center/contain no-repeat;
   color: #d1d1d1;
   text-shadow: 2px 2px 2px rgba(0, 0, 0, 0.5);
   display: flex;
   flex-direction: column;
   align-items: center;
-  text-align: center;
   justify-content: center;
   min-height: 100vh;
-  background-image: url('image/icon.png');
-  background-size: contain;
-  background-position: center;
-  background-repeat: no-repeat;
 }
-a:hover{
+
+a:hover {
   color: #2a2828;
 }
 
-.card:hover{
-  box-shadow: 0px 10px 20px 5px rgba(0, 0, 0, 0.5);
-  transform: translateY(-5px);
-}
-
-.hoverable:hover{
-  box-shadow: 0px 10px 20px 5px rgba(0, 0, 0, 0.5);
+.card:hover,
+.hoverable:hover {
+  box-shadow: 0 10px 20px 5px rgba(0, 0, 0, 0.5);
   transform: translateY(-5px);
 }
 
@@ -35,55 +27,46 @@ button {
   height: 90px;
   width: 120px;
   color: black;
-  -webkit-transition: all 200ms linear;
-  -moz-transition: all 200ms linear;
   transition: all 200ms linear;
   border: none;
 }
+
 button:hover {
-  margin-top: 0px;
-  -moz-box-shadow: 0px 0px 4px 1px grey;
-  -webkit-box-shadow: 0px 0px 4px 1px grey;
-  box-shadow: 0px 0px 4px 1px  grey;
+  margin-top: 0;
+  box-shadow: 0 0 4px 1px grey;
 }
 
 .btn:hover {
   box-shadow: 0 12px 16px 0 rgba(0, 0, 0, 0.24), 0 17px 50px 0 rgba(0, 0, 0, 0.19);
 }
 
-/* Jumbo background styling */
 .jumboBackground {
-  background-image: url(../image/code.png);
-  background-size: cover;
-  background-repeat: no-repeat;
+  background: url(../image/code.png) center/cover no-repeat;
   height: calc(100vh - 25px);
   display: flex;
   align-items: center;
   justify-content: center;
-
 }
 
-/* Image styling */
 img {
   max-width: 100%;
   height: auto;
   display: block;
-  margin: 0 auto 10px; 
+  margin: 0 auto 10px;
 }
 
-/* Container styling */
 .container1,
 .container {
-  width: 80%; 
-  margin: 0 auto; 
+  width: 80%;
+  margin: 0 auto;
 }
 
-/* Image container styling */
+
 .image-container {
   position: relative;
   overflow: hidden;
   border-radius: 20px;
-  margin-bottom: 10px; 
+  margin-bottom: 10px;
 }
 
 .image-container img {
@@ -91,27 +74,9 @@ img {
   height: auto;
 }
 
-/* Overlay text styling */
-.overlay-text {
-  position: absolute;
-  top: 50%;
-  left: 50%;
-  transform: translate(-50%, -50%);
-  color: #ffdbdb;
-  font-size: 18px;
-  font-weight: bold;
-  text-shadow: 2px 2px 2px rgba(0, 0, 0, 0.5);
-  text-align: center;
-  width: 100%;
-  margin: 0;
-  padding: 10px;
-  background: rgba(0, 0, 0, 0.7);
-  border-radius: 8px;
-  box-sizing: border-box;
-}
 
-/* Header styling */
-header {
+header,
+nav {
   background-color: #333;
   color: rgb(0, 0, 0);
   text-align: center;
@@ -122,15 +87,9 @@ header {
   justify-content: center;
 }
 
-/* Navigation styling */
+
 nav {
-  background-color: #333;
-  color: rgb(3, 3, 3);
-  text-shadow: 2px 2px 2px rgba(0, 0, 0, 0.5);
-  text-align: center;
   padding: 20px;
-  display: flex;
-  justify-content: center;
 }
 
 nav ul {
@@ -150,10 +109,9 @@ nav a {
   color: rgb(0, 0, 0);
   text-shadow: 2px 2px 2px rgba(0, 0, 0, 0.5);
   font-weight: bold;
-  align-items: center;
 }
 
-/* Main and section styling */
+
 main,
 section {
   margin-bottom: 20px;
@@ -163,39 +121,22 @@ section {
   align-items: center;
 }
 
-/* Flex item styling */
-.flex_item {
-  padding: 10px;
-  margin: 10px;
-  background-color: rgb(227, 166, 166);
-  color: #f5b4b4;
-  text-shadow: 2px 2px 2px rgba(0, 0, 0, 0.5);
-}
 
-/* Flex styling */
-.flex {
-  display: flex;
-  padding: 10px;
-  margin: 10px;
-}
-
-/* Column styling */
-#column {
+#column,
+#row {
   background-color: #000;
-  text-shadow: 2px 2px 2px rgba(0, 0, 0, 0.5);
   flex-direction: column;
 }
 
-/* Row styling */
+
 #row {
-  background-color: #fccfcf;
+  background-color: #000000;
   flex-direction: row;
-  text-shadow: 2px 2px 2px rgba(0, 0, 0, 0.5);
 }
 
-/* Footer styling */
+
 footer {
-  color: rgb(254, 214, 214);
+  color: rgb(0, 0, 0);
   text-shadow: 2px 2px 2px rgba(0, 0, 0, 0.5);
   text-align: center;
   padding: 20px;
@@ -203,7 +144,7 @@ footer {
   justify-content: center;
 }
 
-/* Media queries for responsive design */
+
 @media only screen and (max-width: 768px) {
   main h1,
   main p,
